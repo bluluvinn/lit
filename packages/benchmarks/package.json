@@ -69,6 +69,6 @@
   },
   "#comment": "Unusually, we don't want to track a specific version of chromedriver, because we end up using the version of chrome that we get in the benchmark runner, which is usually just the latest version. Specifying it as * means that updating the package-lock.json file will always get the latest version.",
   "devDependencies": {
-    "chromedriver": "*"
+    "chromedriver": "^147.0.1"
   }
 }
